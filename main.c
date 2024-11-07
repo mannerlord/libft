@@ -1,11 +1,25 @@
+#include <stdio.h>
 #include "libft.h"
-int main()
+
+int main(void)
 {
-    int a = 5;
-	printf("%d\n",a);
-	if(ft_isdigit(a))
-		printf("yaaayyyy\n");
-	else
-		printf("ohhh nooooooooo\n");
-	return(0);
+    char *str;
+	str = malloc(20);
+	
+    
+    // Print the original string
+    printf("Original string: %s\n", str);
+    
+    // Use ft_memset to fill the first 5 characters with 'A'
+    ft_memset(str,'\0',4);
+	ft_memset(str, '3', 3);
+	ft_memset(str, '2', 2);
+	ft_memset(str, '1', 1);
+	
+    
+    // Print the modified string
+    printf("Modified string: %s\n", str);
+
+    return 0;
 }
+

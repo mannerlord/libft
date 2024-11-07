@@ -6,13 +6,15 @@
 /*   By: fdertlio <frkndrtl104@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 22:04:59 by fdertlio          #+#    #+#             */
-/*   Updated: 2024/11/03 22:27:01 by fdertlio         ###   ########.fr       */
+/*   Updated: 2024/11/07 23:49:42 by fdertlio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isdigit(int c)
+#include "libft.h"
+
+int	ft_isdigit(int c)
 {
-    if (c >= 0 && c <= 9)
-        return (1);
-    return (0);
+	if (c >= '0' && c <= '9')
+		return (1);
+	return (0);
 }

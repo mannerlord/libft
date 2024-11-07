@@ -6,15 +6,15 @@
 /*   By: fdertlio <frkndrtl104@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 23:10:17 by fdertlio          #+#    #+#             */
-/*   Updated: 2024/10/16 23:11:53 by fdertlio         ###   ########.fr       */
+/*   Updated: 2024/11/07 23:46:00 by fdertlio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 
-
-int ft_tolower(int  c)
+int	ft_tolower(int c)
 {
-    if (c >= 65 && c <= 90)
-        c -= 'A' - 'a';
-    return (c);
+	if (c >= 65 && c <= 90)
+		c -= 'A' - 'a';
+	return (c);
 }

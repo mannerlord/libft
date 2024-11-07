@@ -6,13 +6,15 @@
 /*   By: fdertlio <frkndrtl104@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/16 22:59:47 by fdertlio          #+#    #+#             */
-/*   Updated: 2024/10/16 23:09:11 by fdertlio         ###   ########.fr       */
+/*   Updated: 2024/11/07 23:49:21 by fdertlio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_toupper(int  c)
+#include "libft.h"
+
+int	ft_toupper(int c)
 {
-    if (c >= 97 && c <= 122)
-        c += 'A' - 'a';
-    return (c);
+	if (c >= 97 && c <= 122)
+		c += 'A' - 'a';
+	return (c);
 }
