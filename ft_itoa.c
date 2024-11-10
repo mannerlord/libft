@@ -6,7 +6,7 @@
 /*   By: fdertlio <frkndrtl104@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/04 19:56:16 by fdertlio          #+#    #+#             */
-/*   Updated: 2024/11/07 23:38:07 by fdertlio         ###   ########.fr       */
+/*   Updated: 2024/11/10 16:23:03 by fdertlio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ char	*ft_itoa(int n)
 	unsigned int	i;
 
 	if (n == -2147483648)
-		return ("-2147483648");
+		return (ft_strdup("-2147483648"));
 	i = ft_size(n);
 	ret = (char *)malloc(sizeof(char) * (i + 1));
 	if (!ret)
