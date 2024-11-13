@@ -6,13 +6,13 @@
 /*   By: fdertlio <frkndrtl104@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/03 23:28:21 by fdertlio          #+#    #+#             */
-/*   Updated: 2024/11/07 23:44:01 by fdertlio         ###   ########.fr       */
+/*   Updated: 2024/11/10 20:08:05 by fdertlio         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_strncmp(char *s1, char *s2, size_t n)
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t			i;
 	unsigned char	*s1_temp;
